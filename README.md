@@ -34,7 +34,7 @@ The workflow is organized into 8 stages:
 | 7 | **CV Evaluation** | Pulls the position's criteria and runs an AI evaluation, scoring the candidate as Recommended / Consider / Reject. |
 | 8 | **Final Result** | Routes the candidate to the right outcome — moving files, logging results, and notifying HR and the candidate. |
 
-!Node Detail
+![workflow-detail](workflow-description.png)
 
 ---
 
