@@ -2,7 +2,7 @@
 
 An end-to-end recruitment automation built in **n8n** that reads incoming job applications straight from Gmail, validates them, extracts and evaluates each CV against HR-defined criteria using AI, and routes candidates automatically — no manual sorting required.
 
-!Workflow Overview
+![Workflow Overview](workflow-overview.png)
 
 ---
 
