@@ -80,6 +80,6 @@ The goal is automation that removes repetitive work, not one that removes human 
 
 ---
 
-## **Built by**
+## **Built by Yusuf**
 
 Custom automation for small businesses and growing teams — n8n workflows, AI integrations, and lightweight tools that remove repetitive work.
