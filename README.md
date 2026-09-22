@@ -27,7 +27,7 @@ The workflow is organized into 8 stages:
 | --- | --- | --- |
 | 1 | **Trigger & First Validation** | Detects new application emails, extracts applicant info, and validates the position applied for. |
 | 2 | **File Validation** | Checks the CV attachment exists and isn't oversized. |
-| 3 | **Invalid Position** | Logs and flags applications for positions that don't exist, for manual review. |
+| 3 | **Invalid Application & Position** | Flags applications that fail validation — either the application itself or the position applied for — and logs them separately for manual review. Also replies to the applicant with the current list of open positions. |
 | 4 | **Duplication Check** | Blocks re-applications within 90 days of a previous one. |
 | 5 | **Save & Extract CV** | Uploads the CV to Drive, logs the applicant, and extracts text from the PDF. |
 | 6 | **Backup Extractor** | Falls back to an external AI extraction API if the primary text extraction fails. |
