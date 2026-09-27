@@ -50,6 +50,16 @@ The workflow is organized into 8 stages:
 
 ---
 
+Test Results
+ 
+Tested end-to-end across 8 scenarios (recommended, borderline/consider, rejected, duplicate, invalid position, invalid application, non-standard CV format, oversized file), measured from n8n execution logs:
+ 
+- **Processing time per application:** ~8–43 seconds, averaging ~25 seconds — from the moment the email is read to the final action (reply sent, file logged, CV routed).
+- Applications that fail early validation (duplicates, invalid applications) resolve fastest; full evaluations — especially CVs that need the backup extractor — take longer, as expected.
+- **Borderline ("Consider") candidates** are routed to HR for review within roughly the same time as a full evaluation — the wait from that point on is on HR's side, not the system's.
+  
+---
+
 ## **Why This Matters**
 
 Manual CV screening is slow and inconsistent — good candidates get missed, HR spends hours reading resumes that don't even match the role, and applicants rarely hear back. This workflow handles the repetitive filtering automatically and only asks a human to step in when a decision genuinely needs judgment.
